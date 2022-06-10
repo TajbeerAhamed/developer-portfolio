@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -64,14 +65,13 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="/"
+                <Link to='/blogs'
                   aria-label="About us"
                   title="About us"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
-                  Projects
-                </a>
+                  Blogs
+                </Link>
               </li>
               <li>
                 <a
@@ -176,14 +176,13 @@ const Navbar = () => {
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="/"
+                          <Link to='/blogs'
                             aria-label="Product pricing"
                             title="Product pricing"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
-                            Projects
-                          </a>
+                            Blogs
+                          </Link>
                         </li>
                         <li>
                           <a
