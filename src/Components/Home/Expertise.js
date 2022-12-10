@@ -78,10 +78,7 @@ const Feature = () => {
             </div>
           
           
-            {/* <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
-              <img className='w-12' src='https://cdn.iconscout.com/icon/free/png-256/sass-226054.png' alt="" />
-            </div>
-           */}
+         
           
             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
               <img className='w-12' src='https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/tailwind-css.png' alt="" />
@@ -93,14 +90,7 @@ const Feature = () => {
             </div>
           
           
-            {/* <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
-              <img className='w-12' src='https://www.technoscore.com/images/services/node-js-icon.png' alt="" />
-            </div> */}
-          
-          
-            {/* <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
-              <img className='w-12' src='https://tse4.mm.bing.net/th/id/OIP.6iSQRwwvlxEyym8nZbkC0AHaHa?pid=ImgDet&rs=1' alt="" />
-            </div> */}
+           
           
         </div>
         <div className="text-center">

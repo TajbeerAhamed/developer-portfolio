@@ -1,15 +1,44 @@
 import img from '../../assets/IMG_2806.JPG'
+import Typewriter from 'typewriter-effect';
+
 
 const Hero = () => {
     return (
       <div className="relative flex h-screen items-center justify-center flex-col-reverse py-16 lg:py-0 lg:flex-col">
         <div className="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
           <div className="mb-0 lg:max-w-lg lg:pr-8 xl:pr-6">
-            <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:text-center">
-              Hi, I am Tajbeer Ahamed
-              <br className="hidden md:block" />
-             Junior Web Developer
-            </h2>
+          <Typewriter
+  onInit={(typewriter) => {
+    typewriter.typeString('<h1 style="color:#242624; font-size:30px; font-weight:800;"> Hi, I am Tajbeer Ahamed <span style="color:deep-purple-accent-400;></span> </h1>')
+      .callFunction(() => {
+        console.log('String typed out!');
+      })
+      .pauseFor(1000)
+                .start()
+                .typeString(
+                  '<h1 style="color:#651FFF; font-size:30px; font-weight:800; content-center">Rimon</h1>'
+                )
+                .pauseFor(600)
+                .start()
+                .typeString(
+                  '<h1 style="color:#242624; font-size:30px; font-weight:700;">A Web Developer</h1>'
+                )
+                .pauseFor(700)
+                .deleteChars(15)
+                .start()
+                .typeString(
+                  '<h1 style="color:#242624; font-size:30px; font-weight:700;">A React Developer and</h1>'
+                )
+                .pauseFor(1000)
+                .deleteChars(21)
+                .start()
+                .typeString(
+                  '<h1 style="color:#242624; font-size:30px; font-weight:700;">A MERN Stack Developer.</h1>'
+                )
+                .stop();
+            }}
+/>
+         
             <div className="mb-10 text-center md:mb-16 lg:mb-20">
               <a
                 href="https://drive.google.com/file/d/1ybJy40A3n-BymBl93cQc5AhkVwh9rL8g/view?usp=sharing
@@ -34,7 +63,7 @@ const Hero = () => {
                 </div>
                 <div className="flex items-center">
                   <a
-                    href="/"
+                    href="/https://www.instagram.com/tajbeer_ahamed/?hl=en"
                     className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
                     <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
