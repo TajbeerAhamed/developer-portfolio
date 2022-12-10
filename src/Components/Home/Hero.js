@@ -12,7 +12,7 @@ const Hero = () => {
             </h2>
             <div className="mb-10 text-center md:mb-16 lg:mb-20">
               <a
-                href="href=https://drive.google.com/file/d/1ybJy40A3n-BymBl93cQc5AhkVwh9rL8g/view?usp=sharing
+                href="https://drive.google.com/file/d/1ybJy40A3n-BymBl93cQc5AhkVwh9rL8g/view?usp=sharing
                 "
                 className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >

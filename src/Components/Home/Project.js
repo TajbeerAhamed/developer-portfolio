@@ -1,17 +1,16 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import img1 from '../../assets/Screenshots/Web capture_10-6-2022_19110_aurora-car-parts.firebaseapp.com.jpeg'
-import img2 from '../../assets/Screenshots/screenshot-1 (2).jpeg'
-import img3 from '../../assets/Screenshots/screenshot-1 (3).jpeg'
-import img4 from '../../assets/Screenshots/screenshot-1 (4).jpeg'
-import img5 from '../../assets/Screenshots/image (2).png'
-import img6 from '../../assets/Screenshots/image (3).png'
-import img7 from '../../assets/Screenshots/image (6).png'
-import img8 from '../../assets/Screenshots/image (7).png'
-import img9 from '../../assets/Screenshots/image (4).png'
-import img10 from '../../assets/Screenshots/image (5).png'
-import img11 from '../../assets/Screenshots/image (8).png'
-import img12 from '../../assets/Screenshots/image (1).png'
+import img1 from '../../assets/Screenshots/swap.png'
+import img2 from '../../assets/Screenshots/take-a-trip.png'
+import img3 from '../../assets/Screenshots/learning mates.png'
+
+import img5 from '../../assets/Screenshots/swap-dashboard.png'
+import img6 from '../../assets/Screenshots/swap-product-section.png'
+import img7 from '../../assets/Screenshots/take-a-trip-services.png'
+import img8 from '../../assets/Screenshots/take-a-trip-login.png'
+import img9 from '../../assets/Screenshots/learning-mates-login.png'
+import img10 from '../../assets/Screenshots/learning-mates-courses.png'
+
 
 
 const Project = () => {
@@ -21,26 +20,26 @@ const Project = () => {
   const projects = [
     {
       index: 1,
-      name: 'Aurora-car-parts',
-      type: 'Manufacturer Website',
+      name: 'Swap',
+      type: 'Resell Website of Mobile Phone',
       stack: 'Full Stack',
       description: 'A full-stack project with a user login system enabled with firebase, Moreover, the frontend is bootstrapped with React and the backend server is created using node and express with the cloud database system MongoDB. The website has its admin panel and fully-secured user authorization system using a JWT token.',
       screenshot: [img1, img5, img6]
     },
     {
       index: 2,
-      name: 'SunnySide Agency',
-      type: 'landing Page',
+      name: 'Take A Trip',
+      type: 'Travel Website',
       stack: 'Responsive',
-      description: 'A fully responsive landing page for creative agencies created using HTML, CSS, Sass. Click below to learn more about the website.',
+      description: 'A full stack project of Travel Website created using MERN stack. Click below to learn more about the website.',
       screenshot: [img2, img7, img8]
     },
     {
       index: 3,
-      name: 'Smart Photography',
-      type: 'service provider',
+      name: 'Learning Mates',
+      type: 'Learning Platform Website',
       stack: 'Front end',
-      description: 'A beautiful front-end project of a single-independent service provider created with React, The user authentication system was enabled with Firebase.',
+      description: 'A front project for Learning Different Courses created using React. Click below to learn more about the website.',
       screenshot: [img3, img9, img10]
     },
     

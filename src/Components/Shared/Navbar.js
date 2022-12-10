@@ -45,14 +45,14 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="/"
+                <Link
+                to={'/contactMe'}
                   aria-label="Our product"
                   title="Our product"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
               <li>
                 <a

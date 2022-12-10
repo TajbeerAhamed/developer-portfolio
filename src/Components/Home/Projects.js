@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import img1 from '../../assets/Screenshots/Web capture_10-6-2022_19110_aurora-car-parts.firebaseapp.com.jpeg'
-import img2 from '../../assets/Screenshots/screenshot-1 (2).jpeg'
-import img3 from '../../assets/Screenshots/screenshot-1 (3).jpeg'
-import img4 from '../../assets/Screenshots/screenshot-1 (4).jpeg'
+import img1 from '../../assets/Screenshots/swap.png'
+import img2 from '../../assets/Screenshots/take-a-trip.png'
+import img3 from '../../assets/Screenshots/learning mates.png'
+
 
 const Projects = () => {
 
@@ -18,18 +18,18 @@ const Projects = () => {
     },
     {
       index: 2,
-      name: 'SunnySide Agency',
-      type: 'landing Page',
+      name: 'Take A Trip',
+      type: 'Travel Website',
       stack: 'Responsive',
-      description: 'A fully responsive landing pagfe for creative agencies created using HTML, CSS, Sass. Click below to learn more about the website.',
+      description: 'A full stack project of Travel Website created using MERN stack. Click below to learn more about the website.',
       screenshot: img2
     },
     {
       index: 3,
-      name: 'Smart Photography',
-      type: 'service provider',
+      name: 'Learning Mates',
+      type: 'Learning Platform Website',
       stack: 'Front end',
-      description: 'A front project for a independent service provider created using React. Click below to learn more about the website.',
+      description: 'A front project for Learning Different Courses created using React. Click below to learn more about the website.',
       screenshot: img3
     },
     
