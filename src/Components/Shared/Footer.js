@@ -111,7 +111,7 @@ const Footer = () => {
 
             <div class="text-center p-4" style={{"backgroundColor": "rgba(0, 0, 0, 0.2)"}}>
                 © 2022 Copyright:
-                <a class="text-whitehite" href="https://tailwind-elements.com/"> Kamrul Saad</a>
+                <a class="text-whitehite" href="https://tailwind-elements.com/"> TajbeerAhamed</a>
             </div>
         </footer>
     );

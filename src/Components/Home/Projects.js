@@ -10,10 +10,10 @@ const Projects = () => {
   const projects = [
     {
       index: 1,
-      name: 'Aurora-car-parts',
-      type: 'Manufacturer Website',
+      name: 'Swap',
+      type: 'Resell Website of Mobile Phone',
       stack: 'Full Stack',
-      description: 'A full stack project for a manufacturer website created using MERN stack. Click below to learn more about the website.',
+      description: 'A full stack project of Reselling MobilePhone created using MERN stack. Click below to learn more about the website.',
       screenshot: img1
     },
     {
@@ -32,14 +32,7 @@ const Projects = () => {
       description: 'A front project for a independent service provider created using React. Click below to learn more about the website.',
       screenshot: img3
     },
-    {
-      index: 4,
-      name: 'MArvelous Toy Store',
-      type: 'Warehouse Website',
-      stack: 'Full Stack',
-      description: 'A full stack project for a manufacturer website created using MERN stack. Click below to learn more about the website.',
-      screenshot: img4
-    },
+    
   ]
 
     return (

@@ -43,14 +43,7 @@ const Project = () => {
       description: 'A beautiful front-end project of a single-independent service provider created with React, The user authentication system was enabled with Firebase.',
       screenshot: [img3, img9, img10]
     },
-    {
-      index: 4,
-      name: 'MArvelous Toy Store',
-      type: 'Warehouse Website',
-      stack: 'Full Stack',
-      description: 'This is another full-stack project bootstrapped with React. The user authentication system is enabled with Firebase and a nice-built user experience created with tailwind CSS libraries. Moreover, the website has its backend server created with node, express, and MongoDB.',
-      screenshot: [img4, img11, img12]
-    },
+    
   ]
 
   const details = projects.find(p => p.index === parseInt(index))

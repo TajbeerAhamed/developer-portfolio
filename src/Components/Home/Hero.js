@@ -1,4 +1,4 @@
-import img from '../../assets/1636686437900.jpg'
+import img from '../../assets/IMG_2806.JPG'
 
 const Hero = () => {
     return (
@@ -6,13 +6,14 @@ const Hero = () => {
         <div className="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
           <div className="mb-0 lg:max-w-lg lg:pr-8 xl:pr-6">
             <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:text-center">
-              Hi, I am Kamrul Saad
+              Hi, I am Tajbeer Ahamed
               <br className="hidden md:block" />
-              Professional Web Developer
+             Junior Web Developer
             </h2>
             <div className="mb-10 text-center md:mb-16 lg:mb-20">
               <a
-                href="https://drive.google.com/file/d/1ytQpKoqtz7MzH4v_csJ4o3dBAkUqy-6O/view?usp=sharing"
+                href="href=https://drive.google.com/file/d/1ybJy40A3n-BymBl93cQc5AhkVwh9rL8g/view?usp=sharing
+                "
                 className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
                 Resume
